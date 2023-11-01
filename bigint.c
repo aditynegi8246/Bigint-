@@ -8,7 +8,7 @@ long int big(long int n1,long int n2);
 long int subbig(long int n1,long int n2);
 long int addbig(long int n1,long int n2);
 long int multiply(long int n1,long int n2);
-/*int main()
+int main()
 {
     long int n1,n2;
     printf("Enter the long integer 1:");
@@ -21,7 +21,7 @@ long int multiply(long int n1,long int n2);
     printf("Difference of both big integers are:%ld\n",sub);
     long int product=multiply(n1,n2);
     printf("Product of both big integers are:%ld\n",product);
-}*/
+}
 long int big(long int n1,long int n2)
 {
     head1=(struct node *)malloc(sizeof(struct node));
